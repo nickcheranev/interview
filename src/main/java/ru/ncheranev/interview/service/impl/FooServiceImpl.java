@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.ncheranev.interview.controller.dto.FooDto;
 import ru.ncheranev.interview.jpa.repository.FooRepository;
-import ru.ncheranev.interview.mapper.EntityToFooMapper;
-import ru.ncheranev.interview.mapper.FooToEntityMapper;
+import ru.ncheranev.interview.mapper.impl.EntityToFooMapper;
+import ru.ncheranev.interview.mapper.impl.FooToEntityMapper;
 import ru.ncheranev.interview.service.FooService;
 
 import java.util.Optional;
